@@ -31,9 +31,10 @@ Extract the contents of `chromedriver-win64.zip` to a separate location.
 
 ### Usage
 
-1. Set the URL in `main.py` to the desired webpage. For example:
+1. Set the `url` in `main.py` to the desired webpage. For example:
    ```python
    url = "https://www.digikala.com/search/"
 2. Run the main script to start
    ```bash
    python main.py
+3. You have 30 seconds to scroll down the entire page in order to load more products.
